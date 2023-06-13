@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Abhi To-Do List">
+    <meta name="keywords" content="HTML, CSS, JavaScript, todo list, To-Do List, TODO List, CRUD, localstorage">
+    <meta name="author" content="Abhisek Kumar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhi To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1 class="name"> <b>Abhi To-Do List</b> </h1>
+    <header>
+        <h1><i class="fa-solid fa-list-check"></i> <b>To-Do</b></h1>
+        <form action="" id="new-task-form">
+            <input type="text" id="new-task-input" placeholder="Write Your Plans">
+            <input type="submit" value="Add" id="new-task-submit">
+        </form>
+    </header>
+
+    <main>
+        <section class="task-list">
+            <h2><i class="fa-solid fa-pen-to-square"></i> <b>List</b></h2>
+
+            <div id="tasks">
+                <!-- <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="Task" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
